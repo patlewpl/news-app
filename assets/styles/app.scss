@@ -1,0 +1,27 @@
+@import "./shared.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: $basicFontSize;
+  color: $blackColor;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+p,
+span {
+  font-size: 14px;
+}
